@@ -68,7 +68,7 @@ public class wordSelect : MonoBehaviour {
 
 		//TODO: Change number of starting Text objects to match word lists. (Spawn from 0? Hide existing?)
 		for (int i = 0; i < wordList[wordOrder].Count; i++) {
-			GameObject Word = (GameObject)Instantiate (textObject, new Vector3 (transform.position.x, transform.position.y, transform.position.z - 0.5f), transform.rotation);
+			GameObject Word = (GameObject)Instantiate (textObject, new Vector3 (transform.position.x, transform.position.y, transform.position.z - 0.35f), transform.rotation);
 			Word.transform.parent = transform;
 			print (wordOrder + " " + i + " " + wordList[wordOrder][i]);
 			((TextMesh)Word.GetComponent(typeof(TextMesh))).text = wordList[wordOrder][i];

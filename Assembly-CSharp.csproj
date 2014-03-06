@@ -47,8 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MainMenu\Script\MainMenu.cs" />
-     <Compile Include="Assets\Puzzle\Script\Text.cs" />
-     <Compile Include="Assets\Puzzle\Script\upButton.cs" />
      <Compile Include="Assets\Puzzle\Script\wordSelect.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
